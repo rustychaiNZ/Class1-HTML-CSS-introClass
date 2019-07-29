@@ -1,0 +1,114 @@
+/*Resetting CSS Formatting*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.yellow{
+	color: yellow;
+}
+.bgGrey{
+	background-color: grey;
+}
+
+.bgBlueGrad{
+	background-color: teal;
+	background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,91,255,1) 100%);
+}
+
+
+
+
+/*Layout Formatting*/
+.mAuto{
+	margin: auto;
+}
+.m2{
+	margin: 2%;
+}
+.m2-0{
+	margin: 2% 0;
+}
+.m0-2{
+	margin: 0 2%;
+}
+.dBlock{
+	display: block;
+}
+
+.pad2{
+	padding: 2%;
+}
+.pad2-0{
+	padding: 2% 0;
+}
+.fLeft{
+	float: left;
+}
+
+h1{
+	color: white;
+	font-family: Papryus, fantasy;
+}
+h2, h3, h4, h5, p{
+	color: white;
+	font-family: Comic Sans MS;
+}
+.para{
+	margin: 50px;
+}
+
+/*FLoat property helps to display the next element ajacent to the exisisting element*/
+section{
+	width: 50%;
+	float: left;
+	border: 3px solid black;
+}
+section p{
+	border: 5px solid white;
+	padding: 5%;
+}
+/*Remember to clear the float after the block or element*/
+section::after{
+	clear: both;
+}
+
+/*Columns*/
+.col1{
+	width: 8.33%;
+}
+.col2{
+	width: 16.66%;
+}
+.col3{
+	width: 25%;
+}
+.col4{
+	width: 33.33%
+}
+.col5{
+	width: 41.5%;
+}
+.col6{
+	width: 50%;
+}
+.col7{
+	width: 58.33%;
+}
+.col8{
+	width: 66.66%;
+}
+.col9{
+	width: 75%;
+}
+.col10{
+	width: 83.33%;
+}
+.col11{
+	width: 91.67%
+}
+.col12{
+	width: 100%;
+}
